@@ -1,26 +1,68 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
+  --background-color: #121212;
+  --text-color: #f0f0f0;
+  --gray-text-color: #9e9e9e;
+  --accent-gold: #e0b24f;
+  --accent-burnt-orange: #c77a5b;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: system-ui, sans-serif;
+  max-width: 70ch;
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 1.25em;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+blockquote {
+  border-left: 10px solid #ccc;
+  margin: 1.5em 1em;
+  padding: 0 1em;
+  quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+a {
+  color: var(--accent-gold);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--accent-burnt-orange);
+}
+
+h2 {
+  @apply text-2xl font-bold mt-6 mb-3;
+}
+
+ul {
+  @apply list-disc ml-6 mb-3;
+}
+
+li {
+  @apply mb-1;
+}
+
+ol {
+  @apply list-decimal ml-6 mb-3;
+}
+
+code {
+  @apply bg-gray-700 text-sm px-1 py-0.5 rounded;
+}
+
+pre {
+  @apply bg-gray-800 p-4 rounded-md overflow-x-auto text-sm leading-relaxed font-mono border border-gray-600;
+}
+
+pre code {
+  @apply p-0 bg-transparent border-none;
 }
