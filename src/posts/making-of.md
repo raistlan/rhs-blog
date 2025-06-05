@@ -59,4 +59,6 @@ Here are some of the extra things I had to make sure to do:
 
     - It just fetches all the posts and for each of them returns what the slug would be, which is effectively the url: `/blog/making-of` in this case
 
-Thanks for following along! Check out the github repo!
+16. Running `vercel` again works, so going to repoint my domain to the new project I made and we should be good to go!
+
+Thanks for following along! Check out the github repo and hit me up if you have any questions!
