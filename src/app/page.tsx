@@ -10,13 +10,11 @@ export default async function Home() {
       <Header />
       <h2>This is a blog?</h2>
       These are my posts so far:
-      <ul>
+      <ul className="mt-2">
         {posts.length === 0 && <li>No posts yet. Check back later!</li>}
         {posts.map((post) => {
           return (
-            <li
-              key={post.url}
-            >
+            <li key={post.url}>
               <Link
                 href={post.url}
                 className="hover:underline hover:underline-offset-4"
