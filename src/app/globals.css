@@ -24,7 +24,7 @@ blockquote {
   border-left: 10px solid #ccc;
   margin: 1.5em 1em;
   padding: 0 1em;
-  quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: "\201C""\201D""\2018""\2019";
 }
 
 a {
@@ -39,8 +39,16 @@ a:visited {
   color: var(--accent-burnt-orange);
 }
 
+p {
+  @apply mb-3;
+}
+
 h2 {
   @apply text-2xl font-bold mt-6 mb-3;
+}
+
+h3 {
+  @apply text-xl font-bold mt-6 mb-3;
 }
 
 ul {
