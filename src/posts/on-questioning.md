@@ -35,15 +35,19 @@ I like writing down quotes that I hear, or underlining and annotating the books 
 
 This has been incredibly frustrating.
 
-It's frustrating because I feel like my brain isn't actively accompanying me through my life sometimes. It's not that I don't care about my friends or the media that I'm consuming, I'm just not engaging with it enough, I think.
+It's frustrating because I feel like my brain isn't actively accompanying me through my life sometimes. It's not that I don't care about my friends or the media that I'm consuming, I'm just not engaging with it enough, I think. Taking down notes about it helps make it feel more real.
 
-This frustration is a part of the reason that my goal is to question (and think critically) about these things more often. If I make the effort to truly understand why I find something moving or motivational, it becomes easier to communicate about that intelligently instead of just parroting someone else's take and making it my own. I got very far early in my career by parroting other people's good ideas and adopting them as my own.
+This frustration is a part of the reason that my goal is to question (and think critically) about these things more often. If I make the effort to truly understand why I find something moving or motivational, it becomes easier to communicate about that intelligently instead of just parroting someone else's take and making it my own. I got very far early in my career by parroting other people's good ideas and adopting them as my own. I don't know if that's a solution I can rely on for the future.
 
-I've mentioned to that same good friend from above that I feel like my life is in an era of transformation, and I think that transformation is focused on questioning and learning from the results of those questions.
+I've mentioned to that same good friend from above that I feel like my life is in an era of transformation. I think now that that transformation is focused on questioning and learning from the results of those questions.
 
 I think that similar to how social media can affect mental health and be addictive because of the dopamine it causes to be released, I have a similar experience with using AI tools lately. So often it just becomes so easy to turn to these tools to speed up whatever I'm doing, get the dopamine from doing it, and become addicted to the loop of prompting again. I'm looking to change the way that I interact with these tools, so that it enforces patterns that encourage me to think deeply and question not only the results but also the process.
 
 My hope is that I can turn that process shift into something that I really love doing, which is taking notes and keeping them organized. Whether that is in my calendar, my notes app, or some other format (maybe a markdown file added to a blog), I think it will be really valuable in making sure that I'm actively engaged in my life.
+
+That's also why I didn't use AI to proofread or edit this.
+
+Thanks for reading. Keep on keeping on. Have a happy Monday.
 
 ### Links
 
