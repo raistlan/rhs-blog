@@ -1,5 +1,5 @@
 ---
-title: On questioning
+title: On questioning and learning
 date: june 9, 2025
 ---
 
