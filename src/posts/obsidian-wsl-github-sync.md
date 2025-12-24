@@ -22,13 +22,13 @@ Ironically now I jumped through a bunch of hoops and probably spent longer on it
 
 ### How To
 
-**Clone Git Repository**
+## Clone Git Repository
 
 I manually created a git repository in the web ui via https://github.com/raistlan?tab=repositories (you'll want to point to your github profile)
 
 Then `git clone`'d it to my windows file system via `git -C /mnt/c/development clone` or changing to that directory and running git clone
 
-**Install Obsidian**
+## Install Obsidian
 
 via https://obsidian.md/download
 
