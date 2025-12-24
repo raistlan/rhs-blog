@@ -36,7 +36,7 @@ When you open Obsidian for the first time, it will ask you what directory to use
 
 Select the folder that you cloned your git repo into: `C:\development\diary` for me
 
-**Configure the function**
+## Configuring the function
 
 Open the file that you use to provide aliases to your shell. I've got a instructions for how to do this over here: https://github.com/raistlan/dotfiles
 
@@ -84,7 +84,9 @@ diary() {
 }
 ```
 
-**Creating a new note**
+This was where I really started understanding it. I wanted to make some tweaks further below so this wasn't the final version, but if you only have on repository/vault combo, this is all you should need
+
+### Creating a new note
 
 - Open the Obsidian UI
 - Ctrl+N to create a new note
@@ -96,7 +98,7 @@ diary() {
     diary
     ```
 
-**Creating a new vault**
+### Creating a new vault
 
 You can follow the original instructions and just set up a second function with a different name that points at a different repository by updating these two spots in the script
 
@@ -112,7 +114,7 @@ diary()
 
 I think it would be cool to improve this so you could pass a flag that matches different folders ie `diary -p "msg"` for personal and `diary -w "msg"` for work. Would just need to interpret each of these flags as a selector for the directory you look for.
 
-I worked through some of this with ChatGPT and don't really trust it but here:
+Worked with ChatGPT to get option flags in and can now run it exactly the way that I want:
 
 ```bash
 journal() {
@@ -167,5 +169,7 @@ journal() {
   git -C "$journal_dir" push
 }
 ```
+
+I'll probably end up keeping these separated by project, so they can be distinct and potentially even shared if necessary. Ideally though this just gives me an easier way to keep notes with the benefit of being off of the Google ecosystem and in a .md format, which I appreciate.
 
 Thanks for following along!
