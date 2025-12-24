@@ -20,15 +20,13 @@ I sort of ended up working through each of these one by one by reading different
 
 Ironically now I jumped through a bunch of hoops and probably spent longer on it doing this, but that's why we're here.
 
-### How To
-
-## Clone Git Repository
+### Clone Git Repository
 
 I manually created a git repository in the web ui via https://github.com/raistlan?tab=repositories (you'll want to point to your github profile)
 
 Then `git clone`'d it to my windows file system via `git -C /mnt/c/development clone` or changing to that directory and running git clone
 
-## Install Obsidian
+### Install Obsidian
 
 via https://obsidian.md/download
 
@@ -36,7 +34,7 @@ When you open Obsidian for the first time, it will ask you what directory to use
 
 Select the folder that you cloned your git repo into: `C:\development\diary` for me
 
-## Configuring the function
+### Configuring the function
 
 Open the file that you use to provide aliases to your shell. I've got a instructions for how to do this over here: https://github.com/raistlan/dotfiles
 
@@ -113,6 +111,8 @@ diary()
 ```
 
 I think it would be cool to improve this so you could pass a flag that matches different folders ie `diary -p "msg"` for personal and `diary -w "msg"` for work. Would just need to interpret each of these flags as a selector for the directory you look for.
+
+### Allowing optional flags / final product
 
 Worked with ChatGPT to get option flags in and can now run it exactly the way that I want:
 
